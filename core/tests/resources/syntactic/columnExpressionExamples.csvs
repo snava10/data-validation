@@ -1,0 +1,13 @@
+﻿version 1.1
+
+piece: is("1") and (in($file_path) and in($resource_uri))
+
+item: range(1,540) unique($piece,$item)
+
+file_uuid: uuid unique
+
+image_split: is("yes") or is("no")
+
+image_split_other_uuid: if($image_split/is("yes"),uuid,is(""))
+
+image_split_operator: if($image_split/is("yes"),length(1,12) and regex("^[0-9a-zA-Z]{1,12}$"),is(""))

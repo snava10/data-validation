@@ -1,0 +1,4 @@
+﻿version 1.1
+
+a_column: startsWith("some string")   //the value of a_column must start with the string "some string" eg "some strings" or "some string is here that's really long"
+another_column: startsWith($a_column) //the value of another_column must start with the contents of a_column

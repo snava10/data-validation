@@ -1,0 +1,4 @@
+﻿version 1.1
+
+a_column: unique  //a_column must hold a unique value in each row of the CSV file
+another_column: unique($a_column,$another_column) //the combination of values in the two columns must be unique looking across each row of the CSV file

@@ -1,0 +1,4 @@
+﻿version 1.1
+
+a_column: endsWith("some string")   //the value of a_column must end with the string "some string" eg "here is some string" or "this really long string ends with some string"
+another_column: endsWith($a_column) //the value of another_column must end with the contents of a_column

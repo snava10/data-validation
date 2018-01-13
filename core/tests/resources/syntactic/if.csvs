@@ -1,0 +1,8 @@
+﻿version 1.1
+
+a_column: any("true","false")
+another_column: any("yes","no")
+third_column: if($a_colum/is("true"),is("some string"),is("some other string")) /*here we look to the value of a_column, if it is "true", third_column must be "some string" otherwise third_column must be "some other string"*/
+fourth_column: if(($a_column/is("true") and $another_column/is("yes")),is("some string"),is("some other string"))
+//in fourth_column we use a more complicated combinatorial expression as the initial test, if both a_column is "true" and another_column is "yes", 
+//then fourth_column is "some string", otherwise fourth_column is "some other string".  All column expressions could be used for the test etc, only is is used for simpilcity

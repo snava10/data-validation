@@ -1,0 +1,4 @@
+﻿version 1.1
+
+a_column: in("some string")//the value of a_column must be a substring of "some string" eg "some" or "string" or "me st" etc
+another_column: in($a_column) //the value of another_column must be a substring of the contents of a_column

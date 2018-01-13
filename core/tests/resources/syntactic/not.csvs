@@ -1,0 +1,4 @@
+﻿version 1.1
+
+a_column: not("some string")     //the value of a_column must not be the string "some string"
+another_column: not($a_column)   //the value of another_column must not be the value held in a_column

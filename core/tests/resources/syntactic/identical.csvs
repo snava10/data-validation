@@ -1,0 +1,4 @@
+﻿version 1.1
+
+batch_date:	identical date
+batch_code:	identical regex("^[A-Z]{3,5}B[0-9]{3}$")

@@ -1,0 +1,6 @@
+version 1.1
+@totalColumns 2
+
+a_column: date
+another_column: date(2014-10-04,2015-12-03)
+column3: date("yyyyMMdd")

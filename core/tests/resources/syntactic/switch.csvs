@@ -1,0 +1,4 @@
+﻿version 1.1
+
+
+third_column: switch(($a_column/is("true"),is("some string")) ($a_column/is("false"),is("some other string")),is("some third string"))

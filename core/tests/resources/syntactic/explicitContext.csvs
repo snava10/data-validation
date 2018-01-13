@@ -1,0 +1,5 @@
+﻿version 1.1
+
+a_column: is("some string") and $another_column/startsWith("some string") 
+//here two tests are combined on a single line, the second test here looks to the second column 
+another_column: @optional //to check it's value starts with "some string"

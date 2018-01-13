@@ -1,0 +1,8 @@
+version 1.1
+@totalColumns 27
+
+  //1st part, batch_code must be between 1 and 16 characters long, and (implicitly multiple conditions are joined  
+  //by a logical AND unless another boolean is provided). 2nd part restricts to alphanumeric characters as 
+  //specified in digitisation standards p 31. Would usually comprise project identifier (eg department and series),
+  //plus running count of batch number within that.
+department: length(1,16)

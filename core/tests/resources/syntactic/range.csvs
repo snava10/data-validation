@@ -1,0 +1,8 @@
+version 1.1
+@totalColumns 5
+
+image_width: range(2000,*)
+column2: range(23.32,45.89)
+column3: range(-23,45)
+column4: range(-23,*)
+column5: range(*,45)

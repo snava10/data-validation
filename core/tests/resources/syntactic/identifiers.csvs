@@ -1,0 +1,6 @@
+version 1.1
+@totalColumns 3
+
+batch_code: length(1,16)
+department123: length(1,16)
+b12atch_code: length(1,16)

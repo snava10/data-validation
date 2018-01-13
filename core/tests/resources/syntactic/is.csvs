@@ -1,0 +1,4 @@
+﻿version 1.1
+
+a_column: is("some string")    //the contents of a_column must be the string "some string"
+another_column: is($a_column)  //the contents of another_column must be the value held in a_column, treated as a string

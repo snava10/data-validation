@@ -1,0 +1,4 @@
+﻿version 1.1
+
+a_column: is("some string")
+another_column: any("some other string",$a_column,"another string") //any of the string values given here are valid, including referencing the string held in a_column
