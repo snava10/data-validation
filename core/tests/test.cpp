@@ -53,7 +53,6 @@ namespace {
         // Objects declared here can be used by all tests in the test case for Foo.
     };
 
-
     TEST_F(SyntacticTest, PossitiveTestsOnly) {
 
         for(auto& p: fs::directory_iterator(folderPath)) {
@@ -64,7 +63,7 @@ namespace {
                 stringstream buffer;
                 buffer << infile.rdbuf();
                 schema = buffer.str();
-                cout << "Schema " << schema << endl;
+                // cout << "Schema " << schema << endl;
                 Validator* validator = new Validator(schema);
                 EXPECT_EQ(0, validator->errorListener->getErrors()->size());
             }
@@ -72,9 +71,6 @@ namespace {
         }
     }
 
-    TEST_F(SyntacticTest, DoesXyz) {
-        // Exercises the Xyz feature of Foo.
-    }
 }
 
 int main(int argc, char **argv) {

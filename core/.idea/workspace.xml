@@ -16,22 +16,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebcafe87-94c3-4e32-bb0c-98019c13b12a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/Error.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/SyntaxError.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Error.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SyntaxError.cpp" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/include/CustomErrorListener.h" afterPath="$PROJECT_DIR$/include/CustomErrorListener.h" />
-      <change beforePath="$PROJECT_DIR$/include/Listener.h" afterPath="$PROJECT_DIR$/include/Listener.h" />
-      <change beforePath="$PROJECT_DIR$/include/ValidationError.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/include/Validator.h" afterPath="$PROJECT_DIR$/include/Validator.h" />
-      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/src/CustomErrorListener.cpp" afterPath="$PROJECT_DIR$/src/CustomErrorListener.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/Listener.cpp" afterPath="$PROJECT_DIR$/src/Listener.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/ValidationError.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Validator.cpp" afterPath="$PROJECT_DIR$/src/Validator.cpp" />
-      <change beforePath="$PROJECT_DIR$/tests/CMakeLists.txt" afterPath="$PROJECT_DIR$/tests/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/tests/test.cpp" afterPath="$PROJECT_DIR$/tests/test.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -48,13 +32,27 @@
       <file leaf-file-name="test.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="429">
+              <caret line="66" column="59" lean-forward="false" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
                 <element signature="e#173#207#0" expanded="true" />
+                <element signature="e#478#1441#1" expanded="false" />
                 <element signature="e#577#711#0" expanded="false" />
+                <element signature="e#721#833#0" expanded="false" />
+                <element signature="e#995#1191#0" expanded="false" />
+                <element signature="e#1201#1350#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Validator.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Validator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,36 +66,6 @@
                 <element signature="e#211#298#0" expanded="false" />
                 <element signature="e#300#1059#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validator.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/Validator.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="142" lean-forward="false" selection-start-line="1" selection-start-column="142" selection-end-line="1" selection-end-column="142" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomErrorListener.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CustomErrorListener.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -228,12 +196,6 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -269,9 +231,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Google Test.SyntacticTest.PossitiveTestsOnly">
-    <configuration name="All in test.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_PATTERN="test_case_name.*:test_case_name/*.*:*/test_case_name.*/*:*/test_case_name/*.*" TEST_MODE="PATTERN">
-      <envs />
-    </configuration>
     <configuration name="SyntacticTest.PossitiveTestsOnly" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SyntacticTest" TEST_METHOD="PossitiveTestsOnly" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
@@ -293,6 +252,9 @@
     <configuration name="antlr4cpp_generation_schemaparser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="antlr4cpp_generation_schemaparser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
       <envs />
     </configuration>
+    <configuration name="mytests" type="CMakeRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
+      <envs />
+    </configuration>
     <configuration name="test_antlr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="test_antlr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
       <envs />
     </configuration>
@@ -305,19 +267,19 @@
       <item index="2" class="java.lang.String" itemvalue="Application.antlr4cpp_generation_schemaparser" />
       <item index="3" class="java.lang.String" itemvalue="Application.test_antlr" />
       <item index="4" class="java.lang.String" itemvalue="Application.validator" />
-      <item index="5" class="java.lang.String" itemvalue="Google Test.All in test.cpp" />
-      <item index="6" class="java.lang.String" itemvalue="Google Test.case1.name1" />
-      <item index="7" class="java.lang.String" itemvalue="Google Test.case1.validator_initialization" />
-      <item index="8" class="java.lang.String" itemvalue="Google Test.syntactic.any" />
-      <item index="9" class="java.lang.String" itemvalue="Google Test.SyntacticTest.PossitiveTestsOnly" />
+      <item index="5" class="java.lang.String" itemvalue="Google Test.case1.name1" />
+      <item index="6" class="java.lang.String" itemvalue="Google Test.case1.validator_initialization" />
+      <item index="7" class="java.lang.String" itemvalue="Google Test.syntactic.any" />
+      <item index="8" class="java.lang.String" itemvalue="Google Test.SyntacticTest.PossitiveTestsOnly" />
+      <item index="9" class="java.lang.String" itemvalue="Application.mytests" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Google Test.SyntacticTest.PossitiveTestsOnly" />
-        <item index="1" class="java.lang.String" itemvalue="Google Test.case1.validator_initialization" />
-        <item index="2" class="java.lang.String" itemvalue="Google Test.syntactic.any" />
-        <item index="3" class="java.lang.String" itemvalue="Google Test.case1.name1" />
-        <item index="4" class="java.lang.String" itemvalue="Google Test.All in test.cpp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.mytests" />
+        <item index="2" class="java.lang.String" itemvalue="Google Test.case1.validator_initialization" />
+        <item index="3" class="java.lang.String" itemvalue="Google Test.syntactic.any" />
+        <item index="4" class="java.lang.String" itemvalue="Google Test.case1.name1" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +305,7 @@
       <workItem from="1515847936124" duration="774000" />
       <workItem from="1515855346089" duration="7613000" />
       <workItem from="1515951874457" duration="5655000" />
-      <workItem from="1516050072227" duration="3938000" />
+      <workItem from="1516050072227" duration="4614000" />
     </task>
     <servers />
   </component>
@@ -363,11 +325,11 @@
     <history-entry file="SyntacticTest_PossitiveTestsOnly - 2018.01.15 at 22h 06m 03s.xml">
       <configuration name="SyntacticTest.PossitiveTestsOnly" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="case1_validator_initialization - 2018.01.14 at 18h 25m 44s.xml">
-      <configuration name="case1.validator_initialization" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SyntacticTest_PossitiveTestsOnly - 2018.01.15 at 22h 16m 28s.xml">
+      <configuration name="SyntacticTest.PossitiveTestsOnly" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="syntactic_any - 2018.01.07 at 19h 06m 44s.xml">
-      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SyntacticTest_PossitiveTestsOnly - 2018.01.15 at 22h 17m 47s.xml">
+      <configuration name="SyntacticTest.PossitiveTestsOnly" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
     <history-entry file="syntactic_any - 2018.01.07 at 19h 12m 05s.xml">
       <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
@@ -380,7 +342,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56467000" />
+    <option name="totallyTimeSpent" value="57143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="176" width="1537" height="912" extended-state="6" />
@@ -388,11 +350,11 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4461153" sideWeight="0.77263844" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8546366" sideWeight="0.77263844" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5283388" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.54788274" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2756892" sideWeight="0.45211726" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5802005" sideWeight="0.45211726" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26188925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -443,23 +405,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Validator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#109#209#0" expanded="false" />
-            <element signature="e#211#298#0" expanded="false" />
-            <element signature="e#300#1059#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/Listener.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -703,6 +653,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/syntactic/uuid.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -711,9 +669,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CustomErrorListener.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/Validator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="313">
           <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding />
         </state>
@@ -730,22 +696,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CustomErrorListener.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="429">
+          <caret line="66" column="59" lean-forward="false" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
             <element signature="e#173#207#0" expanded="true" />
+            <element signature="e#478#1441#1" expanded="false" />
             <element signature="e#577#711#0" expanded="false" />
+            <element signature="e#721#833#0" expanded="false" />
+            <element signature="e#995#1191#0" expanded="false" />
+            <element signature="e#1201#1350#0" expanded="false" />
           </folding>
         </state>
       </provider>
