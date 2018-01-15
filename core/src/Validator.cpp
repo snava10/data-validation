@@ -4,9 +4,16 @@
 using namespace tree;
 using namespace validator;
 
-Validator::Validator(string &schema) {
+Validator::Validator(string &schema, int verbose) {
     _schema = schema;
-    initialize(1);
+    initialize(verbose);
+}
+
+Validator::~Validator() {
+    delete listener;
+    delete _parser;
+    delete _tree;
+
 }
 
 void Validator::initialize(int verbose) {
@@ -19,7 +26,10 @@ void Validator::initialize(int verbose) {
             std::cout << token->toString() << std::endl;
         }
     }
+    errorListener = new CustomErrorListener();
     _parser = new ValidationSchemaParser(tokens);
+    _parser -> removeErrorListeners();
+    _parser->addErrorListener(errorListener);
     _tree = _parser->schema();
     ParseTreeListener* listener = new Listener();
     tree::ParseTreeWalker treeWalker = tree::ParseTreeWalker();
@@ -34,7 +44,7 @@ ParseTree* Validator::getTree() {
     return _tree;
 }
 
-vector<ValidationError> Validator::validate(string &filePath) {
-    vector<ValidationError> errors;
+vector<Error> Validator::validate(string &filePath) {
+    vector<Error> errors;
     return errors;
 }

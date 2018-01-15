@@ -4,8 +4,6 @@
 
 #include "CustomErrorListener.h"
 
-using namespace validator;
-
 CustomErrorListener::CustomErrorListener() {
     Errors = new vector<SyntaxError>();
 }
@@ -15,7 +13,13 @@ CustomErrorListener::~CustomErrorListener(){
 }
 
 void CustomErrorListener::syntaxError(Recognizer *recognizer, Token *offendingSymbol, size_t line,
-                                      size_t charPositionInLine, const std::string &msg, std::exception_ptr e) {
+                                      size_t charPositionInLine, const string &msg, exception_ptr e) {
+    // Token *offendingSymbol, size_t line, size_t charPositionInLine, string msg
     SyntaxError error(offendingSymbol, line, charPositionInLine, msg);
     Errors->push_back(error);
+
+}
+
+vector<SyntaxError>* CustomErrorListener::getErrors() {
+    return Errors;
 }

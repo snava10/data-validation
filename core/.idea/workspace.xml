@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp_generation_schemaparser" />
       <config projectName="antlr4cpp_fetcher" targetName="mytests" />
       <config projectName="antlr4cpp_fetcher" targetName="test_antlr" />
       <config projectName="antlr4cpp_fetcher" targetName="validator" />
       <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp" />
-      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp_generation_schemaparser" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -15,7 +15,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebcafe87-94c3-4e32-bb0c-98019c13b12a" name="Default" comment="" />
+    <list default="true" id="ebcafe87-94c3-4e32-bb0c-98019c13b12a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/include/Error.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/include/SyntaxError.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Error.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/SyntaxError.cpp" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/include/CustomErrorListener.h" afterPath="$PROJECT_DIR$/include/CustomErrorListener.h" />
+      <change beforePath="$PROJECT_DIR$/include/Listener.h" afterPath="$PROJECT_DIR$/include/Listener.h" />
+      <change beforePath="$PROJECT_DIR$/include/ValidationError.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/include/Validator.h" afterPath="$PROJECT_DIR$/include/Validator.h" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/src/CustomErrorListener.cpp" afterPath="$PROJECT_DIR$/src/CustomErrorListener.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/Listener.cpp" afterPath="$PROJECT_DIR$/src/Listener.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/ValidationError.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Validator.cpp" afterPath="$PROJECT_DIR$/src/Validator.cpp" />
+      <change beforePath="$PROJECT_DIR$/tests/CMakeLists.txt" afterPath="$PROJECT_DIR$/tests/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/tests/test.cpp" afterPath="$PROJECT_DIR$/tests/test.cpp" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,24 +45,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="209">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#173#207#0" expanded="true" />
+                <element signature="e#577#711#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -52,21 +62,31 @@
       <file leaf-file-name="Validator.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Validator.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="126">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
-                <element signature="e#821#891#0" expanded="false" />
-                <element signature="e#893#946#0" expanded="false" />
+                <element signature="e#211#298#0" expanded="false" />
+                <element signature="e#300#1059#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Listener.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Listener.cpp">
+      <file leaf-file-name="Validator.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Validator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="245">
+              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="142" lean-forward="false" selection-start-line="1" selection-start-column="142" selection-end-line="1" selection-end-column="142" />
               <folding />
             </state>
           </provider>
@@ -75,62 +95,8 @@
       <file leaf-file-name="CustomErrorListener.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CustomErrorListener.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomErrorListener.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/CustomErrorListener.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="63" lean-forward="false" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-              <folding>
-                <element signature="e#240#260#1" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Listener.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/Listener.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#116#143#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ValidationSchemaListener.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaListener.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ValidationSchemaBaseListener.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaBaseListener.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="414">
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -150,13 +116,15 @@
       <find>ANTLR4CPP_EXTERNAL_REPO</find>
       <find>antlr4cpp_process_grammar</find>
       <find>BaseErrorListener</find>
+      <find>schemaparser</find>
+      <find>CustomErrorListener::syntaxError</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,21 +136,26 @@
         <option value="$PROJECT_DIR$/tests/tests.cpp" />
         <option value="$PROJECT_DIR$/include/validator.h" />
         <option value="$PROJECT_DIR$/include/validationError.h" />
-        <option value="$PROJECT_DIR$/include/ValidationError.h" />
-        <option value="$PROJECT_DIR$/src/ValidationError.cpp" />
         <option value="$PROJECT_DIR$/antlr-cmake/ExternalAntlr4Cpp.cmake" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
-        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/.ycm_extra_conf.py" />
-        <option value="$PROJECT_DIR$/tests/test.cpp" />
+        <option value="$PROJECT_DIR$/include/Listener.h" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaBaseVisitor.cpp" />
+        <option value="$PROJECT_DIR$/include/ValidationError.h" />
+        <option value="$PROJECT_DIR$/include/Error.h" />
+        <option value="$PROJECT_DIR$/include/SyntaxError.h" />
+        <option value="$PROJECT_DIR$/src/ValidationError.cpp" />
+        <option value="$PROJECT_DIR$/src/Error.cpp" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/SyntaxError.cpp" />
         <option value="$PROJECT_DIR$/src/Listener.cpp" />
+        <option value="$PROJECT_DIR$/include/CustomErrorListener.h" />
+        <option value="$PROJECT_DIR$/src/CustomErrorListener.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/Validator.h" />
         <option value="$PROJECT_DIR$/src/Validator.cpp" />
-        <option value="$PROJECT_DIR$/include/Listener.h" />
-        <option value="$PROJECT_DIR$/src/CustomErrorListener.cpp" />
-        <option value="$PROJECT_DIR$/include/CustomErrorListener.h" />
-        <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/tests/test.cpp" />
       </list>
     </option>
   </component>
@@ -197,6 +170,25 @@
     <option name="y" value="176" />
     <option name="width" value="1535" />
     <option name="height" value="904" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,22 +211,28 @@
           <expand>
             <path>
               <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="data-validation" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="data-validation" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="data-validation" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="data-validation" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,6 +244,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dvalidator/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -269,8 +268,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.syntactic.any">
+  <component name="RunManager" selected="Google Test.SyntacticTest.PossitiveTestsOnly">
     <configuration name="All in test.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_PATTERN="test_case_name.*:test_case_name/*.*:*/test_case_name.*/*:*/test_case_name/*.*" TEST_MODE="PATTERN">
+      <envs />
+    </configuration>
+    <configuration name="SyntacticTest.PossitiveTestsOnly" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SyntacticTest" TEST_METHOD="PossitiveTestsOnly" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="case1.name1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="case1" TEST_METHOD="name1" TEST_MODE="SUITE_TEST">
@@ -282,22 +284,19 @@
     <configuration name="syntactic.any" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="syntactic" TEST_METHOD="any" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="test_case_name.test_name" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="tests" TEST_CLASS="test_case_name" TEST_METHOD="test_name" TEST_MODE="SUITE_TEST">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="test_antlr" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="antlr4cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="antlr4cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
       <envs />
     </configuration>
-    <configuration name="antlr4cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="antlr4cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="test_antlr">
+    <configuration name="antlr4cpp_generation_schemaparser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="antlr4cpp_generation_schemaparser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
       <envs />
     </configuration>
-    <configuration name="antlr4cpp_generation_schemaparser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="antlr4cpp_generation_schemaparser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="test_antlr">
+    <configuration name="test_antlr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="test_antlr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
       <envs />
     </configuration>
-    <configuration name="test_antlr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="test_antlr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="test_antlr">
-      <envs />
-    </configuration>
-    <configuration name="validator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="validator" CONFIG_NAME="Debug">
+    <configuration name="validator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="validator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
       <envs />
     </configuration>
     <list size="10">
@@ -306,19 +305,19 @@
       <item index="2" class="java.lang.String" itemvalue="Application.antlr4cpp_generation_schemaparser" />
       <item index="3" class="java.lang.String" itemvalue="Application.test_antlr" />
       <item index="4" class="java.lang.String" itemvalue="Application.validator" />
-      <item index="5" class="java.lang.String" itemvalue="Google Test.test_case_name.test_name" />
-      <item index="6" class="java.lang.String" itemvalue="Google Test.All in test.cpp" />
-      <item index="7" class="java.lang.String" itemvalue="Google Test.case1.name1" />
-      <item index="8" class="java.lang.String" itemvalue="Google Test.case1.validator_initialization" />
-      <item index="9" class="java.lang.String" itemvalue="Google Test.syntactic.any" />
+      <item index="5" class="java.lang.String" itemvalue="Google Test.All in test.cpp" />
+      <item index="6" class="java.lang.String" itemvalue="Google Test.case1.name1" />
+      <item index="7" class="java.lang.String" itemvalue="Google Test.case1.validator_initialization" />
+      <item index="8" class="java.lang.String" itemvalue="Google Test.syntactic.any" />
+      <item index="9" class="java.lang.String" itemvalue="Google Test.SyntacticTest.PossitiveTestsOnly" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Google Test.syntactic.any" />
+        <item index="0" class="java.lang.String" itemvalue="Google Test.SyntacticTest.PossitiveTestsOnly" />
         <item index="1" class="java.lang.String" itemvalue="Google Test.case1.validator_initialization" />
-        <item index="2" class="java.lang.String" itemvalue="Google Test.case1.name1" />
-        <item index="3" class="java.lang.String" itemvalue="Google Test.All in test.cpp" />
-        <item index="4" class="java.lang.String" itemvalue="Google Test.test_case_name.test_name" />
+        <item index="2" class="java.lang.String" itemvalue="Google Test.syntactic.any" />
+        <item index="3" class="java.lang.String" itemvalue="Google Test.case1.name1" />
+        <item index="4" class="java.lang.String" itemvalue="Google Test.All in test.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -342,33 +341,30 @@
       <workItem from="1515708191299" duration="1803000" />
       <workItem from="1515795327198" duration="4967000" />
       <workItem from="1515847936124" duration="774000" />
+      <workItem from="1515855346089" duration="7613000" />
+      <workItem from="1515951874457" duration="5655000" />
+      <workItem from="1516050072227" duration="3938000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="syntactic_any - 2018.01.07 at 18h 39m 20s.xml">
-      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SyntacticTest_PossitiveTestsOnly - 2018.01.15 at 21h 46m 40s.xml">
+      <configuration name="SyntacticTest.PossitiveTestsOnly" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="syntactic_any - 2018.01.07 at 18h 39m 49s.xml">
-      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SyntacticTest_PossitiveTestsOnly - 2018.01.15 at 21h 50m 05s.xml">
+      <configuration name="SyntacticTest.PossitiveTestsOnly" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="syntactic_any - 2018.01.07 at 18h 43m 01s.xml">
-      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SyntacticTest_PossitiveTestsOnly - 2018.01.15 at 21h 52m 05s.xml">
+      <configuration name="SyntacticTest.PossitiveTestsOnly" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="syntactic_any - 2018.01.07 at 18h 44m 03s.xml">
-      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SyntacticTest_PossitiveTestsOnly - 2018.01.15 at 21h 58m 35s.xml">
+      <configuration name="SyntacticTest.PossitiveTestsOnly" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="syntactic_any - 2018.01.07 at 18h 46m 49s.xml">
-      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SyntacticTest_PossitiveTestsOnly - 2018.01.15 at 22h 06m 03s.xml">
+      <configuration name="SyntacticTest.PossitiveTestsOnly" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="syntactic_any - 2018.01.07 at 18h 47m 07s.xml">
-      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="syntactic_any - 2018.01.07 at 18h 48m 16s.xml">
-      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="syntactic_any - 2018.01.07 at 18h 55m 18s.xml">
-      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="case1_validator_initialization - 2018.01.14 at 18h 25m 44s.xml">
+      <configuration name="case1.validator_initialization" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
     <history-entry file="syntactic_any - 2018.01.07 at 19h 06m 44s.xml">
       <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
@@ -376,27 +372,34 @@
     <history-entry file="syntactic_any - 2018.01.07 at 19h 12m 05s.xml">
       <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="syntactic_any - 2018.01.13 at 17h 12m 54s.xml">
+      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="syntactic_any - 2018.01.13 at 17h 15m 47s.xml">
+      <configuration name="syntactic.any" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39261000" />
+    <option name="totallyTimeSpent" value="56467000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
+    <frame x="65" y="176" width="1537" height="912" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4461153" sideWeight="0.77263844" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5283388" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.54788274" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30952382" sideWeight="0.45211726" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2756892" sideWeight="0.45211726" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26188925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974937" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44862154" sideWeight="0.77263844" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -404,6 +407,28 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47493735" sideWeight="0.77263844" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5283388" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.54788274" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30952382" sideWeight="0.45211726" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26188925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974937" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -411,83 +436,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/Listener.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="e#116#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaListener.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaBaseListener.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Validator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#821#891#0" expanded="false" />
-            <element signature="e#893#946#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Validator.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
-            <element signature="e#821#891#0" expanded="false" />
-            <element signature="e#893#946#0" expanded="false" />
+            <element signature="e#109#209#0" expanded="false" />
+            <element signature="e#211#298#0" expanded="false" />
+            <element signature="e#300#1059#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,9 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="99" lean-forward="true" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
-          <folding>
-            <element signature="e#116#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,7 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,13 +491,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library.cpp" />
     <entry file="file://$PROJECT_DIR$/library.h" />
-    <entry file="file:///usr/local/include/gtest/gtest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="445" column="15" lean-forward="false" selection-start-line="445" selection-start-column="15" selection-end-line="445" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unit_tests/tests.h" />
     <entry file="file://$PROJECT_DIR$/unit_tests/tests.cpp" />
     <entry file="file://$PROJECT_DIR$/unit_tests/CMakeLists.txt" />
@@ -542,41 +499,9 @@
     <entry file="file://$PROJECT_DIR$/tests/tests.cpp" />
     <entry file="file://$PROJECT_DIR$/src/library.cpp" />
     <entry file="file://$PROJECT_DIR$/cmake/ExternalAntlr4Cpp.cmake" />
-    <entry file="file://$PROJECT_DIR$/include/ValidationError.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dvalidator/dvalidator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dvalidator/dvalidator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ValidationError.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dvalidator/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../dvalidator/dvalidator.h" />
+    <entry file="file://$PROJECT_DIR$/../dvalidator/dvalidator.cpp" />
+    <entry file="file://$PROJECT_DIR$/../dvalidator/CMakeLists.txt" />
     <entry file="file://$PROJECT_DIR$/include/antlr4-runtime/ANTLRInputStream.h" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/locals/antlr4cpp/include/antlr4-runtime/ANTLRInputStream.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -589,20 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="72" lean-forward="false" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -635,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/Validator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ValidationSchema.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -649,83 +553,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/locals/antlr4cpp/include/antlr4-runtime/BaseErrorListener.h">
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaBaseListener.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Validator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#821#891#0" expanded="false" />
-            <element signature="e#893#946#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CustomErrorListener.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/CustomErrorListener.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="63" lean-forward="false" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-          <folding>
-            <element signature="e#240#260#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Listener.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#116#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaListener.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaBaseListener.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,15 +571,182 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaBaseListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaBaseVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/schemaparser/ValidationSchemaBaseVisitor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/locals/antlr4cpp/include/antlr4-runtime/ANTLRErrorListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/locals/antlr4cpp/include/antlr4-runtime/BaseErrorListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Error.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#111#130#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/SyntaxError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#130#149#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Listener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Listener.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/CustomErrorListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#138#165#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SyntaxError.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Error.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1873" column="0" lean-forward="false" selection-start-line="1873" selection-start-column="0" selection-end-line="1873" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="85" lean-forward="false" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="142" lean-forward="false" selection-start-line="1" selection-start-column="142" selection-end-line="1" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Validator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#211#298#0" expanded="false" />
+            <element signature="e#300#1059#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CustomErrorListener.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#173#207#0" expanded="true" />
+            <element signature="e#577#711#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,5 +11,5 @@ endforeach()
 
 add_executable(mytests test.cpp ${include_dir_list} ${antlr4cpp_src_files_schemaparser} ../src/CustomErrorListener.cpp ../include/CustomErrorListener.h)
 add_dependencies(mytests antlr4cpp antlr4cpp_generation_schemaparser validator)
-target_link_libraries(mytests antlr4-runtime validator gmock_main -pthread)
+target_link_libraries(mytests antlr4-runtime validator gmock_main -pthread -lstdc++fs)
 add_test(MyTests mytests)

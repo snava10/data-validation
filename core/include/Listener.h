@@ -10,12 +10,7 @@
 
 using namespace schemaparser;
 
-namespace validator {
+class Listener : public ValidationSchemaBaseListener {
+};
 
-    class Listener : public ValidationSchemaBaseListener {
-    public:
-        virtual void ValidationSchemaListener::enterBody(ValidationSchemaParser::BodyContext *ctx);
-    };
-
-}
 #endif //ANTLR4CPP_FETCHER_LISTENER_H

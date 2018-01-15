@@ -4,4 +4,3 @@
 
 #include "Listener.h"
 
-using namespace validator;

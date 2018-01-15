@@ -5,8 +5,9 @@
 #include <vector>
 #include <string>
 #include "ValidationSchemaParser.h"
-#include "ValidationError.h"
+#include "SyntaxError.h"
 #include "Listener.h"
+#include "CustomErrorListener.h"
 
 using namespace std;
 using namespace schemaparser;
@@ -25,10 +26,13 @@ namespace validator{
         Listener* listener;
 
     public:
-        Validator(string& schema);
-        vector<ValidationError> validate(string& filePath);
+        Validator(string& schema, int verbose=0);
+        ~Validator();
+        vector<Error> validate(string& filePath);
         ParseTree* getTree();
         ValidationSchemaParser* getParser();
+        Listener* getListener();
+        CustomErrorListener* errorListener;
     };
 }
 
