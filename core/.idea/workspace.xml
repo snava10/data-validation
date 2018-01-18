@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp_generation_schemaparser" />
       <config projectName="antlr4cpp_fetcher" targetName="mytests" />
       <config projectName="antlr4cpp_fetcher" targetName="test_antlr" />
       <config projectName="antlr4cpp_fetcher" targetName="validator" />
       <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp" />
+      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp_generation_schemaparser" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,15 +16,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebcafe87-94c3-4e32-bb0c-98019c13b12a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/Context.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Context.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/semanticTests.cpp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/include/Context.h" afterPath="$PROJECT_DIR$/include/Context.h" />
       <change beforePath="$PROJECT_DIR$/include/Listener.h" afterPath="$PROJECT_DIR$/include/Listener.h" />
       <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/src/Context.cpp" afterPath="$PROJECT_DIR$/src/Context.cpp" />
       <change beforePath="$PROJECT_DIR$/src/Listener.cpp" afterPath="$PROJECT_DIR$/src/Listener.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/Validator.cpp" afterPath="$PROJECT_DIR$/src/Validator.cpp" />
       <change beforePath="$PROJECT_DIR$/tests/CMakeLists.txt" afterPath="$PROJECT_DIR$/tests/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/tests/semanticTests.cpp" afterPath="$PROJECT_DIR$/tests/semanticTests.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,71 +36,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="e#1201#1350#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validator.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/Validator.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validator.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Validator.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-                <element signature="e#211#298#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="semanticTests.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="semanticTests.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/semanticTests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+            <state relative-caret-position="216">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
-                <element signature="e#41#68#0" expanded="true" />
+                <element signature="e#0#2#0" expanded="false" />
+                <element signature="e#453#1278#1" expanded="false" />
+                <element signature="e#551#635#0" expanded="false" />
+                <element signature="e#645#756#0" expanded="false" />
+                <element signature="e#918#1113#0" expanded="false" />
+                <element signature="e#1123#1272#0" expanded="false" />
+                <element signature="e#1325#1739#0" expanded="false" />
+                <element signature="e#1773#2180#0" expanded="false" />
+                <element signature="e#2216#2625#0" expanded="false" />
+                <element signature="e#2665#3080#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Context.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/Context.h">
+      <file leaf-file-name="positiveInteger.csvs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/resources/semantic/positiveInteger.csvs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Listener.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/Listener.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="20" column="100" lean-forward="false" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
-              <folding>
-                <element signature="e#116#143#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +70,8 @@
       <file leaf-file-name="Listener.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Listener.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="540">
+              <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -159,20 +120,21 @@
         <option value="$PROJECT_DIR$/include/SyntaxError.h" />
         <option value="$PROJECT_DIR$/src/ValidationError.cpp" />
         <option value="$PROJECT_DIR$/src/Error.cpp" />
-        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/SyntaxError.cpp" />
         <option value="$PROJECT_DIR$/include/CustomErrorListener.h" />
         <option value="$PROJECT_DIR$/src/CustomErrorListener.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/Validator.h" />
         <option value="$PROJECT_DIR$/tests/test.cpp" />
-        <option value="$PROJECT_DIR$/src/Context.cpp" />
+        <option value="$PROJECT_DIR$/src/Validator.cpp" />
         <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/Context.h" />
+        <option value="$PROJECT_DIR$/src/Context.cpp" />
         <option value="$PROJECT_DIR$/include/Listener.h" />
         <option value="$PROJECT_DIR$/src/Listener.cpp" />
-        <option value="$PROJECT_DIR$/src/Validator.cpp" />
         <option value="$PROJECT_DIR$/tests/semanticTests.cpp" />
+        <option value="$PROJECT_DIR$/tests/resources/semantic/permitEmpty.csvs" />
       </list>
     </option>
   </component>
@@ -183,9 +145,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
+    <option name="x" value="59" />
     <option name="y" value="176" />
-    <option name="width" value="1535" />
+    <option name="width" value="1533" />
     <option name="height" value="904" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -230,29 +192,6 @@
               <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="semantic" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -287,17 +226,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.SemanticTest.SeparatorDirective">
-    <configuration name="SemanticTest.SeparatorDirective" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SemanticTest" TEST_METHOD="SeparatorDirective" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="Google Test.SemanticTest">
+    <configuration name="SemanticTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SemanticTest" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="SyntacticTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SyntacticTest" TEST_MODE="SUITE_TEST">
+    <configuration name="SemanticTest.NoHeader" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SemanticTest" TEST_METHOD="NoHeader" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="SyntacticTest.PossitiveTestsOnly" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SyntacticTest" TEST_METHOD="PossitiveTestsOnly" TEST_MODE="SUITE_TEST">
+    <configuration name="SemanticTest.Quoted" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SemanticTest" TEST_METHOD="Quoted" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="case1.validator_initialization" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="case1" TEST_METHOD="validator_initialization" TEST_MODE="SUITE_TEST">
+    <configuration name="SemanticTest.SeparatorDirective" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SemanticTest" TEST_METHOD="SeparatorDirective" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="SemanticTest.TotalColumns" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" TEST_CLASS="SemanticTest" TEST_METHOD="TotalColumns" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -307,9 +249,6 @@
       <envs />
     </configuration>
     <configuration name="antlr4cpp_generation_schemaparser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="antlr4cpp_generation_schemaparser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
-      <envs />
-    </configuration>
-    <configuration name="mytests" type="CMakeRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="mytests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
       <envs />
     </configuration>
     <configuration name="test_antlr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="antlr4cpp_fetcher" TARGET_NAME="test_antlr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="antlr4cpp_fetcher" RUN_TARGET_NAME="mytests">
@@ -324,19 +263,19 @@
       <item index="2" class="java.lang.String" itemvalue="Application.antlr4cpp_generation_schemaparser" />
       <item index="3" class="java.lang.String" itemvalue="Application.test_antlr" />
       <item index="4" class="java.lang.String" itemvalue="Application.validator" />
-      <item index="5" class="java.lang.String" itemvalue="Google Test.case1.validator_initialization" />
-      <item index="6" class="java.lang.String" itemvalue="Google Test.SyntacticTest.PossitiveTestsOnly" />
-      <item index="7" class="java.lang.String" itemvalue="Application.mytests" />
-      <item index="8" class="java.lang.String" itemvalue="Google Test.SyntacticTest" />
-      <item index="9" class="java.lang.String" itemvalue="Google Test.SemanticTest.SeparatorDirective" />
+      <item index="5" class="java.lang.String" itemvalue="Google Test.SemanticTest.SeparatorDirective" />
+      <item index="6" class="java.lang.String" itemvalue="Google Test.SemanticTest.Quoted" />
+      <item index="7" class="java.lang.String" itemvalue="Google Test.SemanticTest.NoHeader" />
+      <item index="8" class="java.lang.String" itemvalue="Google Test.SemanticTest.TotalColumns" />
+      <item index="9" class="java.lang.String" itemvalue="Google Test.SemanticTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Google Test.SemanticTest.SeparatorDirective" />
-        <item index="1" class="java.lang.String" itemvalue="Google Test.SyntacticTest" />
-        <item index="2" class="java.lang.String" itemvalue="Google Test.SyntacticTest.PossitiveTestsOnly" />
-        <item index="3" class="java.lang.String" itemvalue="Application.mytests" />
-        <item index="4" class="java.lang.String" itemvalue="Google Test.case1.validator_initialization" />
+        <item index="0" class="java.lang.String" itemvalue="Google Test.SemanticTest" />
+        <item index="1" class="java.lang.String" itemvalue="Google Test.SemanticTest.TotalColumns" />
+        <item index="2" class="java.lang.String" itemvalue="Google Test.SemanticTest.NoHeader" />
+        <item index="3" class="java.lang.String" itemvalue="Google Test.SemanticTest.Quoted" />
+        <item index="4" class="java.lang.String" itemvalue="Google Test.SemanticTest.SeparatorDirective" />
       </list>
     </recent_temporary>
   </component>
@@ -363,25 +302,20 @@
       <workItem from="1515855346089" duration="7613000" />
       <workItem from="1515951874457" duration="5655000" />
       <workItem from="1516050072227" duration="4614000" />
-      <workItem from="1516282406363" duration="11717000" />
+      <workItem from="1516282406363" duration="15776000" />
+      <workItem from="1516308083460" duration="1028000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SemanticTest_SeparatorDirective - 2018.01.18 at 18h 55m 45s.xml">
-      <configuration name="SemanticTest.SeparatorDirective" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SemanticTest - 2018.01.18 at 20h 53m 53s.xml">
+      <configuration name="SemanticTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="SemanticTest_SeparatorDirective - 2018.01.18 at 18h 56m 44s.xml">
-      <configuration name="SemanticTest.SeparatorDirective" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SemanticTest_Quoted - 2018.01.18 at 20h 18m 32s.xml">
+      <configuration name="SemanticTest.Quoted" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="SemanticTest_SeparatorDirective - 2018.01.18 at 18h 58m 33s.xml">
-      <configuration name="SemanticTest.SeparatorDirective" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SemanticTest_SeparatorDirective - 2018.01.18 at 19h 08m 55s.xml">
-      <configuration name="SemanticTest.SeparatorDirective" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SemanticTest_SeparatorDirective - 2018.01.18 at 19h 08m 56s.xml">
-      <configuration name="SemanticTest.SeparatorDirective" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="SemanticTest_Quoted - 2018.01.18 at 20h 24m 29s.xml">
+      <configuration name="SemanticTest.Quoted" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
     <history-entry file="SemanticTest_SeparatorDirective - 2018.01.18 at 19h 10m 05s.xml">
       <configuration name="SemanticTest.SeparatorDirective" configurationId="CMakeGoogleTestRunConfigurationType" />
@@ -398,23 +332,28 @@
     <history-entry file="SemanticTest_SeparatorDirective - 2018.01.18 at 19h 18m 23s.xml">
       <configuration name="SemanticTest.SeparatorDirective" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="SemanticTest_TotalColumns - 2018.01.18 at 20h 45m 26s.xml">
+      <configuration name="SemanticTest.TotalColumns" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SemanticTest_TotalColumns - 2018.01.18 at 20h 51m 40s.xml">
+      <configuration name="SemanticTest.TotalColumns" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68860000" />
+    <option name="totallyTimeSpent" value="73947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="169" width="1537" height="912" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="176" width="1535" height="904" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33709273" sideWeight="0.77263844" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18922305" sideWeight="0.5283388" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.54788274" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35714287" sideWeight="0.45211726" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24060151" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3734336" sideWeight="0.45211726" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18697068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19739413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -431,27 +370,63 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47493735" sideWeight="0.77263844" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33709273" sideWeight="0.77263844" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5283388" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18922305" sideWeight="0.5283388" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.54788274" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30952382" sideWeight="0.45211726" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24060151" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3734336" sideWeight="0.45211726" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26188925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19739413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974937" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974937" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -487,13 +462,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unit_tests/tests.cpp" />
-    <entry file="file://$PROJECT_DIR$/unit_tests/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/src/CMakeFiles.txt" />
-    <entry file="file://$PROJECT_DIR$/tests/tests.h" />
-    <entry file="file://$PROJECT_DIR$/tests/tests.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/library.cpp" />
-    <entry file="file://$PROJECT_DIR$/cmake/ExternalAntlr4Cpp.cmake" />
     <entry file="file://$PROJECT_DIR$/../dvalidator/dvalidator.h" />
     <entry file="file://$PROJECT_DIR$/../dvalidator/dvalidator.cpp" />
     <entry file="file://$PROJECT_DIR$/../dvalidator/CMakeLists.txt" />
@@ -552,9 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,40 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/Error.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#111#130#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/SyntaxError.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/CustomErrorListener.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#138#165#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SyntaxError.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -648,50 +579,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="142" lean-forward="false" selection-start-line="1" selection-start-column="142" selection-end-line="1" selection-end-column="142" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CustomErrorListener.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValidationSchema.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Context.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/noSeparator.csvs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/globalDirectives2.csvs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,67 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#1201#1350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/gtest/gtest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="445" column="15" lean-forward="false" selection-start-line="445" selection-start-column="15" selection-end-line="445" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Context.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/globalDirectives.csvs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Listener.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="100" lean-forward="false" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
-          <folding>
-            <element signature="e#116#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Listener.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Validator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,19 +622,208 @@
         <state relative-caret-position="18">
           <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="false" />
             <element signature="e#211#298#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/CustomErrorListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Error.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/SyntaxError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Validator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="175" lean-forward="false" selection-start-line="1" selection-start-column="175" selection-end-line="1" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/globalDirectives2.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValidationSchema.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Context.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Context.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Listener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#116#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Listener.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="370" column="17" lean-forward="false" selection-start-line="370" selection-start-column="17" selection-end-line="370" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/ignoreColumnNameCases.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/indexColumnDefinition.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/noSeparator.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/noTotalColumns.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/notPermitEmpty.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/notQuoted.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/permitEmpty.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/globalDirectives.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/semanticTests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        <state relative-caret-position="216">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
-            <element signature="e#41#68#0" expanded="true" />
+            <element signature="e#0#2#0" expanded="false" />
+            <element signature="e#453#1278#1" expanded="false" />
+            <element signature="e#551#635#0" expanded="false" />
+            <element signature="e#645#756#0" expanded="false" />
+            <element signature="e#918#1113#0" expanded="false" />
+            <element signature="e#1123#1272#0" expanded="false" />
+            <element signature="e#1325#1739#0" expanded="false" />
+            <element signature="e#1773#2180#0" expanded="false" />
+            <element signature="e#2216#2625#0" expanded="false" />
+            <element signature="e#2665#3080#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/resources/semantic/positiveInteger.csvs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -9,12 +9,15 @@
 
 using namespace std;
 
-namespace validator {
+class Context {
+public:
+    string Delimiter;
+    bool Quoted;
+    bool NoHeader;
+    int TotalColumns;
 
-    class Context {
-    public:
-        string Delimiter;
-    };
-}
+    Context();
+    ~Context();
+};
 
 #endif //ANTLR4CPP_FETCHER_CONTEXT_H

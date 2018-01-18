@@ -18,7 +18,6 @@ using namespace validator;
 
 namespace fs = std::experimental::filesystem ;
 
-
 namespace {
 
 // The fixture for testing class Foo.
@@ -60,6 +59,48 @@ namespace {
             schema = buffer.str();
             Validator* validator = new Validator(schema);
             EXPECT_EQ(";", validator->getListener()->context->Delimiter);
+        }
+        infile.close();
+    }
+
+    TEST_F(SemanticTest, Quoted){
+        ifstream infile;
+        infile.open(folderPath + "globalDirectives.csvs");
+        string schema;
+        if(infile.good()){
+            stringstream buffer;
+            buffer << infile.rdbuf();
+            schema = buffer.str();
+            Validator* validator = new Validator(schema);
+            EXPECT_TRUE(validator->getListener()->context->Quoted);
+        }
+        infile.close();
+    }
+
+    TEST_F(SemanticTest, NoHeader){
+        ifstream infile;
+        infile.open(folderPath + "globalDirectives.csvs");
+        string schema;
+        if(infile.good()){
+            stringstream buffer;
+            buffer << infile.rdbuf();
+            schema = buffer.str();
+            Validator* validator = new Validator(schema);
+            EXPECT_TRUE(validator->getListener()->context->NoHeader);
+        }
+        infile.close();
+    }
+
+    TEST_F(SemanticTest, TotalColumns){
+        ifstream infile;
+        infile.open(folderPath + "globalDirectives.csvs");
+        string schema;
+        if(infile.good()){
+            stringstream buffer;
+            buffer << infile.rdbuf();
+            schema = buffer.str();
+            Validator* validator = new Validator(schema);
+            EXPECT_EQ(21, validator->getListener()->context->TotalColumns);
         }
         infile.close();
     }
