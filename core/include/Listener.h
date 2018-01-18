@@ -7,10 +7,18 @@
 
 #include <antlr4-runtime.h>
 #include <ValidationSchemaBaseListener.h>
+#include "Context.h"
 
+using namespace validator;
 using namespace schemaparser;
 
 class Listener : public ValidationSchemaBaseListener {
+public:
+    Context *context;
+    Listener();
+    ~Listener();
+
+    void enterSeparator_directive(ValidationSchemaParser::Separator_directiveContext *ctx) override;
 };
 
 #endif //ANTLR4CPP_FETCHER_LISTENER_H

@@ -31,7 +31,7 @@ void Validator::initialize(int verbose) {
     _parser -> removeErrorListeners();
     _parser->addErrorListener(errorListener);
     _tree = _parser->schema();
-    ParseTreeListener* listener = new Listener();
+    listener = new Listener();
     tree::ParseTreeWalker treeWalker = tree::ParseTreeWalker();
     treeWalker.walk(listener, _tree);
 }
@@ -47,4 +47,8 @@ ParseTree* Validator::getTree() {
 vector<Error> Validator::validate(string &filePath) {
     vector<Error> errors;
     return errors;
+}
+
+Listener* Validator::getListener() {
+    return listener;
 }
