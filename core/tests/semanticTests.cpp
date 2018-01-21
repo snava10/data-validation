@@ -115,7 +115,7 @@ namespace {
             buffer << infile.rdbuf();
             schema = buffer.str();
             Validator* validator = new Validator(schema);
-            vector<Node*> nodes = *validator->getListener()->getNodes();
+            vector<Node*> nodes = validator->getListener()->getNodes();
             EXPECT_EQ(1, nodes.size());
             EXPECT_EQ((int)REAL_NODE, nodes[0]->getNodeKind());
         }

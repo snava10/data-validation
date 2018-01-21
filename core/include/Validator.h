@@ -29,6 +29,8 @@ namespace validator{
         Validator(string& schema, int verbose=0);
         ~Validator();
         vector<Error> validate(string& filePath);
+        vector<Error> validate(map<string, string> data);
+        vector<Error> validate(map<int, string> data);
         ParseTree* getTree();
         ValidationSchemaParser* getParser();
         Listener* getListener();

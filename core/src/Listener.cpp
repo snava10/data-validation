@@ -9,13 +9,11 @@ using namespace schemaparser;
 
 Listener::Listener() : ValidationSchemaBaseListener() {
     context = new Context();
-    nodes = new vector<Node*>();
+    nodes = vector<Node*>();
 };
-Listener::~Listener() {
-    delete nodes;
-};
+Listener::~Listener() {};
 
-vector<Node*>* Listener::getNodes() {
+vector<Node*> Listener::getNodes() {
     return nodes;
 }
 
@@ -44,7 +42,7 @@ void Listener::enterReal_number_expr(ValidationSchemaParser::Real_number_exprCon
     // Need column name
     string columnName = columnDefinitionScope->ColumnName;
     RealNode* realNode = new RealNode(context, columnName);
-    nodes->push_back(realNode);
+    nodes.push_back(realNode);
 }
 
 void Listener::enterColumn_definition(ValidationSchemaParser::Column_definitionContext *ctx) {

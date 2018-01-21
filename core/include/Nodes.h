@@ -26,11 +26,10 @@ public:
     Node(Context *pContext, const string columnName);
     Node(Context *pContext, int columnIndex);
     ~Node();
-    vector<Error> Errors;
     string ColumnName;
     int ColumnIndex;
-    virtual void validate(map<string, string> &data)=0;
-    virtual void validate(map<int, string> &data)=0;
+    virtual vector<Error> validate(map<string, string> &data)=0;
+    virtual vector<Error> validate(map<int, string> &data)=0;
     NodeKind getNodeKind();
 };
 
@@ -40,12 +39,12 @@ public:
     RealNode(Context *pContext, int columnIndex) : Node(pContext, columnIndex) { nodeKind = REAL_NODE; }
     ~RealNode(){}
 
-    void validate(map<string, string> &data) override;
-    void validate(map<int, string> &data) override;
+    vector<Error> validate(map<string, string> &data) override;
+    vector<Error> validate(map<int, string> &data) override;
 };
 class IntegerNode: public Node {
 public:
-    IntegerNode(Context *context, const string& columnName):Node(context, columnName){ nodeKind = INTEGER_NODE; }
+    IntegerNode(Context* context, const string& columnName):Node(context, columnName){ nodeKind = INTEGER_NODE; }
     IntegerNode(Context* context, int columnIndex):Node(context, columnIndex){ nodeKind = INTEGER_NODE; }
 };
 

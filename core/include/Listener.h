@@ -14,13 +14,13 @@ using namespace schemaparser;
 
 class Listener : public ValidationSchemaBaseListener {
 protected:
-    vector<Node*>* nodes;
+    vector<Node*> nodes;
 public:
     Context *context;
     ColumnDefinitionScope *columnDefinitionScope;
     Listener();
     ~Listener();
-    vector<Node*>* getNodes();
+    vector<Node*> getNodes();
     void enterSeparator_directive(ValidationSchemaParser::Separator_directiveContext *ctx) override;
     void enterQuoted_directive(ValidationSchemaParser::Quoted_directiveContext *ctx) override;
     void enterNo_header_directive(ValidationSchemaParser::No_header_directiveContext *ctx) override;
