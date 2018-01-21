@@ -22,10 +22,8 @@ using namespace validator;
 
 namespace fs = std::experimental::filesystem ;
 
-
 namespace {
 
-// The fixture for testing class Foo.
     class ValidationTest : public ::testing::Test {
     protected:
 
@@ -69,9 +67,9 @@ namespace {
 
             map<string, string> data;
             data["acolumn"] = "123.456";
+            data["bcolumn"] = "131.4376";
 
             vector<Error> errors = validator->validate(data);
-            cout << errors[0].message;
             ASSERT_EQ(0, errors.size());
         }
         infile.close();
