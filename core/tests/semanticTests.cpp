@@ -9,6 +9,7 @@
 #include "gtest/gtest.h"
 #include "Validator.h"
 #include <experimental/filesystem>
+#include "Nodes.h"
 
 using namespace std;
 using namespace schemaparser;
@@ -101,6 +102,22 @@ namespace {
             schema = buffer.str();
             Validator* validator = new Validator(schema);
             EXPECT_EQ(21, validator->getListener()->context->TotalColumns);
+        }
+        infile.close();
+    }
+
+    TEST_F(SemanticTest, RealNumber){
+        ifstream infile;
+        infile.open(folderPath + "realNumber.csvs");
+        string schema;
+        if(infile.good()){
+            stringstream buffer;
+            buffer << infile.rdbuf();
+            schema = buffer.str();
+            Validator* validator = new Validator(schema);
+            vector<Node*> nodes = *validator->getListener()->getNodes();
+            EXPECT_EQ(1, nodes.size());
+            EXPECT_EQ((int)REAL_NODE, nodes[0]->getNodeKind());
         }
         infile.close();
     }

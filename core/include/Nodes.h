@@ -13,29 +13,40 @@
 
 using namespace schemaparser;
 
+enum NodeKind {
+    REAL_NODE,
+    INTEGER_NODE
+};
+
 class Node {
 protected:
-    Context context;
+    Context* context;
+    NodeKind nodeKind;
 public:
-    Node(Context &context, string &columnName);
-    Node(Context &context, int columnIndex);
+    Node(Context *pContext, const string columnName);
+    Node(Context *pContext, int columnIndex);
     ~Node();
     vector<Error> Errors;
     string ColumnName;
-    string ColumnIndex;
+    int ColumnIndex;
     virtual void validate(map<string, string> &data)=0;
     virtual void validate(map<int, string> &data)=0;
+    NodeKind getNodeKind();
 };
 
 class RealNode: public Node {
-    RealNode(Context &context, string &columnName):Node(context, columnName) {}
-    RealNode(Context &context, int columnIndex):Node(context, columnIndex) {}
+public:
+    RealNode(Context *pContext, const string columnName) : Node(pContext, columnName) { nodeKind = REAL_NODE; }
+    RealNode(Context *pContext, int columnIndex) : Node(pContext, columnIndex) { nodeKind = REAL_NODE; }
+    ~RealNode(){}
+
     void validate(map<string, string> &data) override;
     void validate(map<int, string> &data) override;
 };
 class IntegerNode: public Node {
-    IntegerNode(Context &context, string &columnName):Node(context, columnName){}
-    IntegerNode(Context &context, int columnIndex):Node(context, columnIndex){}
+public:
+    IntegerNode(Context *context, const string& columnName):Node(context, columnName){ nodeKind = INTEGER_NODE; }
+    IntegerNode(Context* context, int columnIndex):Node(context, columnIndex){ nodeKind = INTEGER_NODE; }
 };
 
 #endif //ANTLR4CPP_FETCHER_NODES_H

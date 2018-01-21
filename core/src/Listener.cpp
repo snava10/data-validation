@@ -2,14 +2,22 @@
 // Created by sergio on 07/01/18.
 //
 
+#include <Nodes.h>
 #include "Listener.h"
 
 using namespace schemaparser;
 
-Listener::Listener() {
+Listener::Listener() : ValidationSchemaBaseListener() {
     context = new Context();
+    nodes = new vector<Node*>();
 };
-Listener::~Listener() {};
+Listener::~Listener() {
+    delete nodes;
+};
+
+vector<Node*>* Listener::getNodes() {
+    return nodes;
+}
 
 void Listener::enterSeparator_directive(ValidationSchemaParser::Separator_directiveContext *ctx) {
     ValidationSchemaBaseListener::enterSeparator_directive(ctx);
@@ -33,4 +41,23 @@ void Listener::enterTotal_columns_directive(ValidationSchemaParser::Total_column
 
 void Listener::enterReal_number_expr(ValidationSchemaParser::Real_number_exprContext *ctx) {
     ValidationSchemaBaseListener::enterReal_number_expr(ctx);
+    // Need column name
+    string columnName = columnDefinitionScope->ColumnName;
+    RealNode* realNode = new RealNode(context, columnName);
+    nodes->push_back(realNode);
+}
+
+void Listener::enterColumn_definition(ValidationSchemaParser::Column_definitionContext *ctx) {
+    ValidationSchemaBaseListener::enterColumn_definition(ctx);
+    columnDefinitionScope = new ColumnDefinitionScope();
+}
+
+void Listener::exitColumn_definition(ValidationSchemaParser::Column_definitionContext *ctx) {
+    ValidationSchemaBaseListener::exitColumn_definition(ctx);
+    columnDefinitionScope = NULL;
+}
+
+void Listener::enterName(ValidationSchemaParser::NameContext *ctx) {
+    ValidationSchemaBaseListener::enterName(ctx);
+    columnDefinitionScope->ColumnName = ctx->getText();
 }

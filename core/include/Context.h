@@ -20,4 +20,9 @@ public:
     ~Context();
 };
 
+class ColumnDefinitionScope {
+public:
+    string ColumnName;
+};
+
 #endif //ANTLR4CPP_FETCHER_CONTEXT_H
