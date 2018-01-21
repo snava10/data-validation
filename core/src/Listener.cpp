@@ -30,3 +30,7 @@ void Listener::enterTotal_columns_directive(ValidationSchemaParser::Total_column
     ValidationSchemaBaseListener::enterTotal_columns_directive(ctx);
     context->TotalColumns = stoi(ctx->children[2]->getText());
 }
+
+void Listener::enterReal_number_expr(ValidationSchemaParser::Real_number_exprContext *ctx) {
+    ValidationSchemaBaseListener::enterReal_number_expr(ctx);
+}

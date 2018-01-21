@@ -52,8 +52,11 @@ single_expr             :   explicit_context_expr?
                              range_expr | length_expr | empty_expr | not_empty_expr | 
                              unique_expr | uri_expr | uuid4_expr | 
                              positive_integer_expr | upper_case_expr | 
-                             lower_case_expr | identical_expr | date_expr);
+                             lower_case_expr | identical_expr | date_expr |
+                             real_number_expr | integer_expr);
 
+real_number_expr        :   REAL_NUMBER;
+integer_expr            :   INTEGER_NUMBER;
 date_expr               :   DATE (date_format_expr | date_range_expr)?;
 date_format_expr        :   OPEN_BRACKET STRING_LITERAL CLOSE_BRACKET;
 date_range_expr         :   OPEN_BRACKET update_literal COMA update_literal CLOSE_BRACKET;
@@ -159,6 +162,8 @@ UPPER_CASE              :   'upperCase';
 LOWER_CASE              :   'lowerCase';
 IDENTICAL               :   'identical';
 POSITIVE_INTEGER        :   'positiveInteger';
+REAL_NUMBER             :   'real';
+INTEGER_NUMBER          :   'integer';
 IF                      :   'if';
 SWITCH                  :   'switch';
 fragment SINGLE_QUOTE   :   '\'';

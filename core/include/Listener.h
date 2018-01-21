@@ -20,6 +20,7 @@ public:
     void enterQuoted_directive(ValidationSchemaParser::Quoted_directiveContext *ctx) override;
     void enterNo_header_directive(ValidationSchemaParser::No_header_directiveContext *ctx) override;
     void enterTotal_columns_directive(ValidationSchemaParser::Total_columns_directiveContext *ctx) override;
+    void enterReal_number_expr(ValidationSchemaParser::Real_number_exprContext *ctx) override;
 };
 
 #endif //ANTLR4CPP_FETCHER_LISTENER_H

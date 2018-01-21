@@ -8,3 +8,5 @@ Context::Context() {
     Quoted = false;
     NoHeader = false;
 }
+
+Context::~Context() {}
