@@ -23,6 +23,10 @@ public:
 class ColumnDefinitionScope {
 public:
     string ColumnName;
+    int ColumnIndex;
+
+    ColumnDefinitionScope();
+    ~ColumnDefinitionScope();
 };
 
 #endif //ANTLR4CPP_FETCHER_CONTEXT_H

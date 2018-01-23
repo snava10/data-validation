@@ -19,6 +19,7 @@ file(GLOB files "${validation_tests}/*.csvs")
 foreach(file ${files})
     get_filename_component(filename ${file} NAME )
     configure_file(${validation_tests}/${filename} ${PROJECT_BINARY_DIR}/tests/resources/validation/${filename} COPYONLY)
+    message(STATUS "Copying: ${filename}")
 endforeach()
 
 # configure_file(${syntactic_tests}/any.csvs ${PROJECT_BINARY_DIR}/tests/resources/syntactic/any.csvs COPYONLY)

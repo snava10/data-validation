@@ -29,6 +29,7 @@ public:
     void enterColumn_definition(ValidationSchemaParser::Column_definitionContext *ctx) override;
     void exitColumn_definition(ValidationSchemaParser::Column_definitionContext *ctx) override;
     void enterName(ValidationSchemaParser::NameContext *ctx) override;
+    void enterIndex(ValidationSchemaParser::IndexContext *ctx) override;
 };
 
 #endif //ANTLR4CPP_FETCHER_LISTENER_H

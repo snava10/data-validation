@@ -60,6 +60,17 @@ vector<Error> Validator::validate(map<string, string> data) {
     return errors;
 }
 
+vector<Error> Validator::validate(map<int, string> data) {
+    vector<Node*> nodes = listener->getNodes();
+    vector<Error> errors = vector<Error>();
+    for (int i = 0; i < nodes.size(); ++i) {
+        Node* n = nodes[i];
+        vector<Error> err = n->validate(data);
+        errors.insert(errors.end(), err.begin(), err.end());
+    }
+    return errors;
+}
+
 Listener* Validator::getListener() {
     return listener;
 }

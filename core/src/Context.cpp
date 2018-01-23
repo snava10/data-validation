@@ -10,3 +10,10 @@ Context::Context() {
 }
 
 Context::~Context() {}
+
+ColumnDefinitionScope::ColumnDefinitionScope() {
+    ColumnName = "";
+    ColumnIndex = -1;
+}
+
+ColumnDefinitionScope::~ColumnDefinitionScope() {}

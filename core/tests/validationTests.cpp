@@ -99,4 +99,28 @@ namespace {
         }
         infile.close();
     }
+
+    TEST_F(ValidationTest, RealNumberValidColumnIndex) {
+        ifstream infile;
+        infile.open(folderPath + "realNumbersIndexColumn.csvs");
+        string schema;
+        if(infile.good()){
+            stringstream buffer;
+            buffer << infile.rdbuf();
+            schema = buffer.str();
+            Validator* validator = new Validator(schema);
+
+            map<int, string> data;
+            data[0] = "123.0";
+            data[1] = "131.435";
+
+            vector<Error> errors = validator->validate(data);
+            ASSERT_EQ(0, errors.size());
+        }
+        else{
+            cout << "File not found";
+        }
+        infile.close();
+    }
+
 }

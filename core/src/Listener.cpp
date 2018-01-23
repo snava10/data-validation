@@ -10,6 +10,7 @@ using namespace schemaparser;
 Listener::Listener() : ValidationSchemaBaseListener() {
     context = new Context();
     nodes = vector<Node*>();
+    columnDefinitionScope = new ColumnDefinitionScope();
 };
 Listener::~Listener() {};
 
@@ -40,8 +41,17 @@ void Listener::enterTotal_columns_directive(ValidationSchemaParser::Total_column
 void Listener::enterReal_number_expr(ValidationSchemaParser::Real_number_exprContext *ctx) {
     ValidationSchemaBaseListener::enterReal_number_expr(ctx);
     // Need column name
-    string columnName = columnDefinitionScope->ColumnName;
-    RealNode* realNode = new RealNode(context, columnName);
+    RealNode *realNode;
+    if(context->NoHeader){
+        //No column header, should rely on the index
+        int columnIndex = columnDefinitionScope->ColumnIndex;
+        realNode = new RealNode(context, columnIndex);
+    }
+    else{
+        //Column header, should have the name of the column
+        string columnName = columnDefinitionScope->ColumnName;
+        realNode = new RealNode(context, columnName);
+    }
     nodes.push_back(realNode);
 }
 
@@ -58,4 +68,9 @@ void Listener::exitColumn_definition(ValidationSchemaParser::Column_definitionCo
 void Listener::enterName(ValidationSchemaParser::NameContext *ctx) {
     ValidationSchemaBaseListener::enterName(ctx);
     columnDefinitionScope->ColumnName = ctx->getText();
+}
+
+void Listener::enterIndex(ValidationSchemaParser::IndexContext *ctx) {
+    ValidationSchemaBaseListener::enterIndex(ctx);
+    columnDefinitionScope->ColumnIndex = stoi(ctx->getText());
 }
